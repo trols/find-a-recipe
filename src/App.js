@@ -10,7 +10,7 @@ function App() {
   const MY_KEY="5e1c76e58c810fd3c0ad656e1d79e606";
   const[myRecipes,setMyRecipes]=useState([]);
   const[mySearch,setMySearch]=useState('');
-  const[wordSubmitted,setWordSubmitted]=useState('strawberry')
+  const[wordSubmitted,setWordSubmitted]=useState('banana')
 
   useEffect(()=>{
 const getMyRecipe=async()=>{
