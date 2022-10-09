@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ 
+  .App {
+    text-align: center;
+    width: 420px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  background-color: #E9FADD;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
+  .container{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+margin-top: 15px;
+}
+.search{
+  border: none;
+  padding: 10px;
+  width: 200px;
+  margin-top: 20px;
+  margin-right: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Roboto', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.icon{
+  width: 60px;
+  height: 60px;
+  background-color: #E9FADD;
+  
+  }
+  h1{
+    color: #170055;
+    font-family:'Roboto', sans-serif;
+    }
+    h2{
+      color: #EF5B0C;
+      font-family:'Roboto', sans-serif;
+    }
+  
+button{
+  padding: 0px;
+  border: none;
+  margin-top: 10px;
+  background-color: white;
+}
+/* фотография*/
+.card{
+height: 260px;
+width: auto;
+border: 1px solid  #170055;
+border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/*ингредиенты*/
+ul {
+list-style: none; 
+padding: 0;
+text-align: left;
+  margin-left: auto;
+  
 }
+li {
+  display: block;
+  padding: .4em .4em .4em .8em;
+  width: 360px;
+  font-family:'Roboto', sans-serif;
+  
+}
+li:hover{
+  background-color: #dcdde1;
+}
+#fon{
+  background-color: white;
+}
+.bullit{
+  width: 20px;
+}
+p{
+  color: #170055;
+  
+}
+.twoitem{
+  display: flex;
+  }
+
